@@ -1,18 +1,20 @@
-# GA4 Ads Funnel Analysis
+# GA4 E-commerce Funnel & Conversion Analysis
 
-## Overview
-This repository contains an end-to-end digital marketing analytics project.
-The project combines GA4 event-level data with Google & Facebook Ads data to
-analyze conversion funnels, channel performance, and user engagement using SQL.
+This project analyzes GA4 e-commerce data using **BigQuery SQL** and visualizes insights in **Looker Studio**.
 
+## 🔍 Project Scope
+- Session → Purchase funnel analysis
+- Conversion rates by traffic source
+- Landing page conversion performance
+- User engagement vs purchase behavior
 
-SQL project using:
-- PostgreSQL (Google & Facebook Ads analysis)
-- BigQuery + GA4 public dataset (funnel, conversion, landing page, correlation)
+## 🛠 Tech Stack
+- Google Analytics 4 (GA4)
+- BigQuery (SQL)
+- Looker Studio
 
-## Structure
-- `task1_google_facebook_ads.sql` → PostgreSQL ads analysis
-- `sql/bigquery_ga4/` → BigQuery queries for Tasks 2–5
+## 📊 Dashboard
+Live dashboard:
+https://lookerstudio.google.com/reporting/22acc734-f692-4608-9d85-5deb60d3bc9c
 
-## Author
-Şevval Öztürk
+## 📂 Repository Structure
