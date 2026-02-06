@@ -1,2 +1,12 @@
-# digital-marketing-analytics-sql
-GA4 BigQuery funnel analysis and Google &amp; Facebook Ads performance analysis with SQL
+# GA4 Ads Funnel Analysis
+
+SQL project using:
+- PostgreSQL (Google & Facebook Ads analysis)
+- BigQuery + GA4 public dataset (funnel, conversion, landing page, correlation)
+
+## Structure
+- `task1_google_facebook_ads.sql` → PostgreSQL ads analysis
+- `sql/bigquery_ga4/` → BigQuery queries for Tasks 2–5
+
+## Author
+Şevval Öztürk
